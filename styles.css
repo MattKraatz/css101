@@ -1,0 +1,61 @@
+body {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  border: 2px solid black;
+}
+
+label {
+  font-size: 16px;
+}
+
+.top-nav {
+  background-color: goldenrod;
+  height: 55px;
+}
+
+.top-nav li {
+  list-style: none;
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: 3px;
+  display: inline-block;
+  width: 5em;
+  height: 1.4em;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
+.top-nav li:hover {
+  color: white;
+}
+
+.page-class {
+  color: green;
+}
+
+.left {
+  float: left;
+  width: 20%;
+}
+
+.right {
+  float: right;
+  width: 20%;
+}
+
+.floated-p {
+  clear: both;
+}
+
+.n-child section:nth-child(even) {
+  border: 10px solid red;
+}
+
+.n-type section:nth-of-type(even){
+  border: 10px solid red;
+}
